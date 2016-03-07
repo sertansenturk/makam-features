@@ -8,12 +8,6 @@ Usage
 Installation
 -------
 
-For the MATLAB package:  
-All you have to is to add the path of the MATLAB folder in this repository. In MATLAB terminal, you can to it as:
-
-	addpath('path/to/makam-features/MATLAB/')
-
-
 For the python package:  
 If you want to install makam-features, it is recommended to install the package and dependencies into a virtualenv. In the terminal, do the following:
 
