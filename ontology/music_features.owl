@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#"
+     xml:base="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_01cd2742_0453_42ea_97ce_3e6089b3d6a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_01cd2742_0453_42ea_97ce_3e6089b3d6a3">
+        <rdfs:label xml:lang="en">TimbralFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_02cb6c45_77f4_4f21_9ede_5ec48e69c038 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_02cb6c45_77f4_4f21_9ede_5ec48e69c038">
+        <rdfs:label xml:lang="en">ScoreFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_29768f84_3ed3_4d19_abdc_f6cd71a740d1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_035f851a_a3c7_4792_9eda_cbabc2cde466 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_035f851a_a3c7_4792_9eda_cbabc2cde466">
+        <rdfs:label xml:lang="en">Tempo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_33582c79_a293_489c_8aeb_490e252bcf47"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_0cfc79ba_2c10_484f_bc3b_24247b4899cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_0cfc79ba_2c10_484f_bc3b_24247b4899cd">
+        <rdfs:label xml:lang="en">RelativeTempo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_035f851a_a3c7_4792_9eda_cbabc2cde466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_13431296_ccef_4d06_a22d_812b92cabd63 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_13431296_ccef_4d06_a22d_812b92cabd63">
+        <rdfs:label xml:lang="en">StructuralFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_151facff_d144_4e84_8e60_58574285f523 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_151facff_d144_4e84_8e60_58574285f523">
+        <rdfs:label xml:lang="en">ScoreNominalTempo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_02cb6c45_77f4_4f21_9ede_5ec48e69c038"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_035f851a_a3c7_4792_9eda_cbabc2cde466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_29768f84_3ed3_4d19_abdc_f6cd71a740d1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_29768f84_3ed3_4d19_abdc_f6cd71a740d1">
+        <rdfs:label xml:lang="en">SymbolicFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e8a409e5_9e0a_40a7_8ccd_41e907e4fa8e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_33582c79_a293_489c_8aeb_490e252bcf47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_33582c79_a293_489c_8aeb_490e252bcf47">
+        <rdfs:label xml:lang="en">RhythmicFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_3c024a2d_5024_4cfb_a15a_0de8e388be90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_3c024a2d_5024_4cfb_a15a_0de8e388be90">
+        <rdfs:label xml:lang="en">AverageTempo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_035f851a_a3c7_4792_9eda_cbabc2cde466"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_44653f82_3742_4c3c_b90f_c279b5f17183 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_44653f82_3742_4c3c_b90f_c279b5f17183">
+        <rdfs:label xml:lang="en">SyntheticMelody</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_02cb6c45_77f4_4f21_9ede_5ec48e69c038"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e383a2b5_4c09_4b4a_a79a_4de6ab3b1ce8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_4d2da5f4_1e1f_43d0_896f_eb1d7b5da27b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_4d2da5f4_1e1f_43d0_896f_eb1d7b5da27b">
+        <rdfs:label xml:lang="en">TimeSeries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_bd55121c_2aca_4cba_a2c9_9a4b4edae718"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_5fdcb840_4df4_4ba4_831a_190591c26232 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_5fdcb840_4df4_4ba4_831a_190591c26232">
+        <rdfs:label xml:lang="en">Note</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_a22521ac_8de8_4bcf_924f_3800d9963127"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_6eb09998_31b4_4d9b_b58c_7434594ba0b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_6eb09998_31b4_4d9b_b58c_7434594ba0b7">
+        <rdfs:label xml:lang="en">StablePitch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_caa256eb_ee98_4d40_bf72_7f6a7bd077e3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_757e3115_32d7_4a57_84e3_9e4dd5654252 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_757e3115_32d7_4a57_84e3_9e4dd5654252">
+        <rdfs:label xml:lang="en">Seyir</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_83749b6a_4412_41c9_9151_9c5b5215658c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_83749b6a_4412_41c9_9151_9c5b5215658c">
+        <rdfs:label xml:lang="en">PitchClassDistribution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_bd55121c_2aca_4cba_a2c9_9a4b4edae718"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2">
+        <rdfs:label xml:lang="en">MusicalFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8f3013df_701d_4115_ab0f_6d539d3dff6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8f3013df_701d_4115_ab0f_6d539d3dff6a">
+        <rdfs:label xml:lang="en">AudioFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9b9ebc99_5d1e_4f3f_ab7f_8f2e17d8b94b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9b9ebc99_5d1e_4f3f_ab7f_8f2e17d8b94b">
+        <rdfs:label xml:lang="en">Pulse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_33582c79_a293_489c_8aeb_490e252bcf47"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43">
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9ea3fc6d_1c8d_444a_9e94_99e84a341b7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9ea3fc6d_1c8d_444a_9e94_99e84a341b7b">
+        <rdfs:label xml:lang="en">Beat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_33582c79_a293_489c_8aeb_490e252bcf47"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_a22521ac_8de8_4bcf_924f_3800d9963127 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_a22521ac_8de8_4bcf_924f_3800d9963127">
+        <rdfs:label xml:lang="en">NoteSymbol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_29768f84_3ed3_4d19_abdc_f6cd71a740d1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_ac4ba3d4_8880_4163_9973_4748931c0407 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_ac4ba3d4_8880_4163_9973_4748931c0407">
+        <rdfs:label xml:lang="en">PitchClass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_fa6c3d7e_8dc0_4c84_954d_f335a9644c53"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_bd55121c_2aca_4cba_a2c9_9a4b4edae718 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_bd55121c_2aca_4cba_a2c9_9a4b4edae718">
+        <rdfs:label xml:lang="en">Distribution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_caa256eb_ee98_4d40_bf72_7f6a7bd077e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_caa256eb_ee98_4d40_bf72_7f6a7bd077e3">
+        <rdfs:label xml:lang="en">Pitch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_fa6c3d7e_8dc0_4c84_954d_f335a9644c53"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e2265ffc_1627_4049_9e86_876ae9026b4c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e2265ffc_1627_4049_9e86_876ae9026b4c">
+        <rdfs:label xml:lang="en">PitchDistribution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_bd55121c_2aca_4cba_a2c9_9a4b4edae718"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e383a2b5_4c09_4b4a_a79a_4de6ab3b1ce8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e383a2b5_4c09_4b4a_a79a_4de6ab3b1ce8">
+        <rdfs:label xml:lang="en">Melody</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_4d2da5f4_1e1f_43d0_896f_eb1d7b5da27b"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e3d70487_ee12_4239_b901_e4edc8589912 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e3d70487_ee12_4239_b901_e4edc8589912">
+        <rdfs:label xml:lang="en">StablePitchClass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_ac4ba3d4_8880_4163_9973_4748931c0407"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e8a409e5_9e0a_40a7_8ccd_41e907e4fa8e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e8a409e5_9e0a_40a7_8ccd_41e907e4fa8e">
+        <rdfs:label xml:lang="en">PredominantMelody</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8f3013df_701d_4115_ab0f_6d539d3dff6a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_e383a2b5_4c09_4b4a_a79a_4de6ab3b1ce8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_f6246e6d_369e_4d2d_8a44_2734504fe70e">
+        <rdfs:label xml:lang="en">MelodicFeature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_8be28aad_6bf5_4283_aabe_5cbd8cec5fc2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_fa6c3d7e_8dc0_4c84_954d_f335a9644c53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_fa6c3d7e_8dc0_4c84_954d_f335a9644c53">
+        <rdfs:label xml:lang="en">DataPoint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sertansenturk/ontologies/2016/2/untitled-ontology-88#OWLClass_9e48d5b8_0394_4f34_a9b9_ae52db3a5e43"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
