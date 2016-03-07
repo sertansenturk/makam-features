@@ -4,7 +4,6 @@ classdef AudioFeature < feature.Feature
     
     properties
         Filename
-        Info
     end
     
     methods 

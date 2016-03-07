@@ -2,6 +2,10 @@ classdef Feature
     %Feature feature object
     %
     
+    properties
+        Info
+    end    
+    
     methods (Static)
         feature = read(path, format)
     end
