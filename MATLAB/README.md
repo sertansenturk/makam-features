@@ -1,3 +1,6 @@
+# makam-features
+Implementation of the makam-features in MATLAB
+
 Usage
 -------
 TODO: Explain how to call the features
