@@ -8,6 +8,8 @@ To call the features from the current working directory, you have add this folde
 addpath('path/to/makam-features/MATLAB/')
 ```
 
+Simply change the string 'path/to/makam-features/MATLAB/' with the actual directory path.
+
 Authors
 -------
 Sertan Şentürk
